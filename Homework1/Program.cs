@@ -10,14 +10,14 @@ int num1 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите второе число: ");
 int num2 = Convert.ToInt32(Console.ReadLine());
 
-    if (num1 > num2)
-     {
-         Console.WriteLine("Первое число " + num1 + " больше чем второе " + num2);
-     }
-     else
-     {
-         Console.WriteLine("Второе число " + num2 + " больше чем первое " + num1);
-     }
+if (num1 > num2)
+{
+    Console.WriteLine("Первое число " + num1 + " больше чем второе " + num2);
+}
+else
+{
+    Console.WriteLine("Второе число " + num2 + " больше чем первое " + num1);
+}
 
 
 
@@ -38,12 +38,12 @@ int max = num1;
 
 if (num2 > max)
 {
-     max = num2;
+    max = num2;
 }
 
 if (num3 > max)
 {
-     max = num3;
+    max = num3;
 }
 
 Console.WriteLine("Наибольшее из введённых чисел " + max);
@@ -58,17 +58,17 @@ Console.WriteLine("Наибольшее из введённых чисел " + m
 // -3 -> нет
 // 7 -> нет
 
- Console.WriteLine("Введите число:");
- int num = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите число:");
+int num = Convert.ToInt32(Console.ReadLine());
 
- if (num % 2 == 0)
- {
-     Console.WriteLine("Число " + num + " является четным");
- }
- else
- {
-     Console.WriteLine("Число " + num + " является нечетным");
- }
+if (num % 2 == 0)
+{
+    Console.WriteLine("Число " + num + " является четным");
+}
+else
+{
+    Console.WriteLine("Число " + num + " является нечетным");
+}
 
 
 
@@ -79,14 +79,14 @@ Console.WriteLine("Наибольшее из введённых чисел " + m
 // 5 -> 2, 4
 // 8 -> 2, 4, 6, 8
 
- Console.WriteLine("Введите число:");
- int num = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите число:");
+int num = Convert.ToInt32(Console.ReadLine());
 
- if (num % 2 == 1)
- {
-     Console.WriteLine("Число " + num + " является нечетным");
- }
- else
- {
-     Console.WriteLine("Число " + num + " является четным");
- }
+if (num % 2 == 1)
+{
+    Console.WriteLine("Число " + num + " является нечетным");
+}
+else
+{
+    Console.WriteLine("Число " + num + " является четным");
+}
