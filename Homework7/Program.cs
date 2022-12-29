@@ -149,10 +149,6 @@ Console.WriteLine("Введите количество строк");
 int rows = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите количество столбцов");
 int columns = Convert.ToInt32(Console.ReadLine());
-// Console.WriteLine("Введите номер строки");
-// int i = Convert.ToInt32(Console.ReadLine());
-// Console.WriteLine("Введите номер столбца");
-// int j = Convert.ToInt32(Console.ReadLine());
 
 int [,] array = FillArrayRandomNumbers(rows, columns);
 PrintArray(array);
